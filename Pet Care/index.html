@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lilita+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Russo+One&display=swap"
+        rel="stylesheet">
+
+
+    <title>PET-CARE</title>
+</head>
+<style>
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar-brand {
+        padding-right: 80px;
+        font-family: "Protest Strike", sans-serif;
+
+
+    }
+
+    .navbar-brand h1 {
+        font-family: tahoma;
+        color: rgb(143, 25, 25);
+        text-align: center;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .navbar-brand h3 {
+        font-family: lucida;
+        color: rgb(143, 25, 25);
+        text-align: center;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+    }
+
+    .nav-link {
+        font-family: initial;
+
+    }
+
+    button {
+        width: 160px;
+        height: 40px;
+        background-color: red;
+        border: 0;
+        color: white;
+    }
+
+    h6 {
+        color: red;
+        font-family: arial;
+    }
+
+    .btn button {
+        border: 1px solid white;
+        margin-right: 20px;
+    }
+
+    #imgs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+    }
+
+    #imgs img {
+        width: 200px;
+        margin-left: 40px;
+        margin-right: 80px;
+        margin-top: 90px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1><b>CAMP</b></h1>
+                <h3><b>BOW WOW</b></h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item pt-3">
+                        <a class="nav-link active  p-4" aria-current="page" href="#"><b>Services</b></a>
+                    </li>
+                    <li class="nav-item pt-3">
+                        <a class="nav-link active  p-4" href="#"><b>Why Camp Bow Wow</b></a>
+                    </li>
+                    <li class="nav-item  pt-3">
+                        <a class="nav-link active p-4" href="#"><b>About Us</b></a>
+                    </li>
+                    <li class="nav-item  pt-3">
+                        <a class="nav-link active p-4" href="#"><b>Giving Back</b></a>
+                    </li>
+                    <li class="nav-item  pt-3">
+                        <a class="nav-link active p-4" href="#"><b>Franchise Opportunities</b></a>
+                    </li>
+                    <li class="nav-item pt-3">
+                        <a class="nav-link active p-4" href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+                    </li>
+                    <li class="nav-item p-4 pt-1">
+                        <a class="nav-link active" href="account.html">
+                            <h6 style="text-align: center;"><i class="fa-solid fa-user"></i> <b>Account Login</b></h6>  </a>
+                            <a class="nav-link active" href="map.html"><p><button><i class="fa-solid fa-location-dot fa-xl"></i> <b>FIND A CAMP</b></button></p></a>   
+                      
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <video autoplay loop width="100%" height="100%">
+                    <source src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog_-_77623 (540p) (1).mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12"
+                style="background-color: brown;height:150px;padding-top: 20px;color: white;padding-left: 20px;">
+                <h3 style="padding-left:15px ;">
+                    I'm Looking For
+                </h3>
+                <nav class="btn">
+                    <button><i class="fa-solid fa-sun"></i> <b>DOG DAY CARE</b></button>
+                    <button><i class="fa-regular fa-moon"></i> <b>DOG BOARDING</b></button>
+                    <button><i class="fa-solid fa-dog"></i> <b>DOG TRAINING</b></button>
+                    <button><i class="fa-solid fa-droplet"></i> <b>DOG GROOMING</b></button>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12" id="imgs">
+
+                <div> <a href="">
+                        <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\first-aid.png" alt="">
+                        <h4 style="color:rgb(100, 100, 229);font-family: cursive;"><b>SAFETY FIRST</b></h4>
+                        <p style="font-family: tahoma;">Counselors certified in pet first aid and <br>
+                            CPR put your dog's health and <br> happiness first.</p>
+                    </a>
+
+                </div>
+                <div> <a href="">
+                        <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\bridge.png" alt="">
+                        <h4 style="color:rgb(100, 100, 229);font-family: cursive;padding-top:40px;"><b>SPACIOUS PLAY
+                                YARDS</b></h4>
+                        <p style="font-family: tahoma;">Our oasis offers larg, climate- <br>
+                            controlled play yards for optimal tail <br>wags.</p>
+                    </a> </div>
+
+                <div> <a href="">
+                        <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\mbl.png" alt="">
+                        <h4 style="color:rgb(100, 100, 229);font-family: cursive;padding-top:60px;"><b>MONITOR YOUR
+                                PUP</b></h4>
+                        <p style="font-family: tahoma;">Access our lives webcams on your <br>
+                            computer pr smartphone.</p>
+                    </a></div>
+                <div>
+                    <a href="">
+                        <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\house.webp" alt="">
+                        <h4 style="color:rgb(100, 100, 229);font-family: cursive;"><b>ALL-IN-ONE PRICING</b></h4>
+                        <p style="font-family: tahoma;">Treat your prt to all-inclusive fun at one<br>
+                            convenient rate.</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <div style="display: flex;">
+                    <nav
+                        style="width:800px;height:600px ;background-image: url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog1.jpg);background-repeat: no-repeat;background-size: cover;">
+                        <div
+                            style="display: flex;justify-content: space-around;align-items:baseline;color: white;margin-top:500px;background-color: skyblue;margin-left: 50px;padding-bottom:30px;margin-right: 50px;height:220px;">
+                            <aside>
+                                <h2 style="font-size:80px;font-family: cursive;"><b>Take a</b></h2>
+                                <h1 style="font-size:100px;font-family: sans-serif;"><b>TOUR</b></h1>
+                            </aside>
+                            <aside>
+                                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog-foot2.png" alt="" style="width: 50px;"> <br> <br>
+                                <button
+                                    style="height:50px;border: 2px solid white;width: 200px;font-family:lucida sans;"><b>SNIFF
+                                        AROUND</b></button>
+                            </aside>
+                        </div>
+
+                    </nav>
+                    <nav>
+                        <nav
+                            style="width:600px;height:300px ;background-image: url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog2.jpg);background-size: cover;">
+                            <div
+                                style="padding: 100px;padding-top:80px; text-align: center;color: white;font-family:arial;">
+                                <i class="fa-solid fa-bone fa-xl" style="color: rgb(223, 223, 61);"></i>
+                                <h2><b>Why Camp Bow Wow</b></h2>
+                                <h5>Your Pup's Safety & Happiness Are <br>
+                                    Our Top Priorities</h5>
+                                <button style="height:50px;border: 2px solid white;width: 200px;"><b>OUR
+                                        DIFFERENCE</b></button>
+                            </div>
+                        </nav>
+                        <nav
+                            style="width:600px;height:300px ;background-image: url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog3.jpg);background-size: cover;">
+                            <div
+                                style="padding: 100px;padding-top:80px; text-align: center;color: white;font-family:arial;">
+                                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog-foot.jpg" alt="" style="width: 50px;">
+                                <h2><b>Services</b></h2>
+                                <h5>Loving Pet Care Fir For Every <br>
+                                    Parent's Needs</h5>
+                                <button style="height:50px;border: 2px solid white;width: 200px;"><b>START
+                                        EXPLORING</b></button>
+                            </div>
+                        </nav>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <nav style="display: flex;justify-content: space-between;">
+                    <aside style="margin-left: 100px;margin-top:200px;">
+                        <p><b>Camp Bow Wow on the Go <br>
+                                Our Mobile App Makes Caring For Your Pup Easy!</b></p>
+                        <ul>
+                            <li>Customize Camper profile and care</li>
+                            <li>Request dog day care & boarding reservations</li>
+                            <li>View our live webcams</li>
+                            <li>And much more!</li>
+                        </ul>
+                        <a href=""><img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\app store.png" alt="">
+                            <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\g-play.png" alt=""></a>
+                    </aside>
+                    <aside style="margin-right:80px;">
+                        <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog-mbl.webp" alt="">
+                    </aside>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width:100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog1.jpg" alt="" style="width: 1000px;">
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row mt-4 mb-5">
+            <div class="col-md-6">
+                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog4.webp" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1 style="color:rgb(55, 109, 125); font-family: Oleo Script, system-ui;
+                font-weight:600;
+                font-style: normal;font-size: 50px;">
+                    <b>DOG SERVICES THAT PUT <br>
+                        YOUR PET FIRST</b>
+                </h1>
+                <h3 style="color:rgb(55, 109, 125);">Trusted Pet Boarding Near You</h3>
+                <p>From dog boarding and daycare to grooming, training, and enrichment, our fun-loving <br>
+                    Counselors maximize safety and individualized care for dogs. With more than 200 locations in <br>
+                    North America, Camp Bow Wow is the largest pet care franchise and offers a fun and safe<br> place
+                    where pups can romp together in an open-play environment and all-inclusive pricing.<br> We provide
+                    pet parents peace of mind because we're all about Making Dogs Happy.</p>
+                <div style="display: flex;justify-content: space-around;align-items:baseline;color: brown;background-color: skyblue;margin-left: 50px;padding-bottom:30px;height:auto;padding-top:30px;font-family: Oleo Script, system-ui;
+                               font-weight: 400;
+                               font-style: normal;">
+                    <h3>YOUR PUP IS GUARANTEED TO HAVE A BALL</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row">
+            <div class="col-md-12">
+                <nav style="display: flex;">
+                    <div>
+                        <aside
+                            style="background-image: url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog5.jpg);background-position:50% ;background-size: cover;width:600px;height:300px;padding-top: 100px;padding-left: 180px;color: white;">
+                            <i class="fa-solid fa-bone fa-xl" style="color: rgb(223, 223, 61);padding-left:
+                            80px;"></i>
+                            <h2><b>Own a Camp</b></h2>
+                            <h6 class="text-light">A Franchise Opportunity <br>
+                                Too Good To Pass Up</h6>
+                            <button style="height:50px;border: 2px solid white;width: 200px;"><b>DIG FOR
+                                    MORE</b></button>
+                        </aside>
+                        <aside
+                            style="background-image: url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog5.jpg);background-position:80% ;background-size: cover;width:600px;height:300px;">
+                            <div
+                                style="padding: 100px;padding-top:80px; text-align: center;color: white;font-family:arial;">
+                                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\heart.jpg" alt="" style="width: 50px;">
+                                <h2><b>Help a Dog In Need</b></h2>
+                                <h6 class="text-light">The Bow Wow Buddies Foundation® Helps Support the <br>
+                                    Health and Happiness of Our Four-Legged Friends</h6>
+                                <button style="height:50px;border: 2px solid white;width: 200px;"><b>LEND A HELPING
+                                        PAW</b></button>
+                            </div>
+                        </aside>
+                    </div>
+                    <aside
+                        style="background-image:url(C:\Users\ADMIN\OneDrive\Desktop\PetCare\dog7.jpg);width:800px ;height:600px ;background-repeat: no-repeat;background-position: 100%;background-size: cover;">
+                        <div
+                            style="display: flex;justify-content: space-evenly;align-items:baseline;color: white;margin-top:500px;background-color: skyblue;margin-left: 50px;margin-right: 50px;height:auto;">
+                            <nav>
+                                <h2 style="color:white; font-family: Oleo Script, system-ui;
+                                font-weight:600;
+                                font-style: normal;font-size:50px;">About</h2>
+                                <h1 style="font-family: Lilita One, sans-serif;
+                                font-weight: 400;
+                                font-style: normal;font-size:60px;">US</h1>
+                            </nav>
+                            <nav>
+                                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog-foot.jpg" alt="" style="width: 50px;">
+                                <br><br>
+                                <button style="height:50px;border: 2px solid white;width: 200px;"><b>WHO WE
+                                        ARE</b></button>
+                            </nav>
+                        </div>
+            </div>
+
+            </aside>
+
+            </nav>
+        </div>
+    </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid" style="width: 100%;">
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6" >
+                <img src="C:\Users\ADMIN\OneDrive\Desktop\Pet Care\dog8.jpg" alt="">
+            </div>
+            <div class="col-md-6" >
+                <nav style="margin-top:80px;">
+                    <h4 style="font-size:50px;font-family: cursive;color:rgb(78, 136, 187);text-align: center;">Ready to</h4>
+                    <h2 style="font-size:60px;font-family: cursive;color:rgb(78, 136, 187);">ROMP. WAG. PLAY?</h2>
+                    <button style="height:50px;border:5px solid white;width:300px;margin-left:50px;"><b>FIND YOUR NEART CAMP</b></button>
+                    
+                </nav>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="padding-left:250px;padding-top: 50px;background-color:rgb(139, 139, 218);padding-bottom: 30px;">
+                
+                    <a href="" style="padding-right: 100px;color: white;font-size:20px;"><b>Services</b></a>
+                    <a href="" style="padding-right: 100px;color: white;font-size:20px;"><b>Giving Back</b></a>
+                    <a href=""style="padding-right: 100px;color: white;font-size:20px;"><b>Careers</b></a>
+                    <a href=""style="padding-right: 100px;color: white;font-size:20px;"><b>Franchise Opportunities</b></a>
+             
+            </div>
+        </div>
+        <div class="row" style="background-color: rgb(109, 109, 234);padding-top:100px;padding-left: 50px;padding-bottom: 30px;">
+            <div class="col-md-4" >
+                <h4>Download Our App</h4>
+               <a href="" class="text-light"> <i class="fa-brands fa-apple text-light"></i> <b>APPLE</b></a>
+               &nbsp;
+               <a href="" class="text-light"><i class="fa-solid fa-robot text-light"></i> <b>ANDROID</b></a>
+
+            </div>
+            <div class="col-md-4" >
+              
+                    <h1 style="font-family:Lilita One, sans-serif;
+                    font-weight: 400;font-size:60px;
+                    font-style: normal;color: white;text-align: center;"><b>CAMP</b></h1>
+                <h3 style="font-family: Lilita One, sans-serif;
+                font-weight: 400;font-size:60px;
+                font-style: normal;color: white;text-align: center;"><b>BOW WOW</b></h3>
+              <a href="map.html"><p style="text-align: center;"><button><i class="fa-solid fa-location-dot fa-xl"></i> <b>FIND A CAMP</b></button></p></a>
+               <p>Copyright © 2024 Camp Bow Wow®. All Rights Reserved.</p>
+               <a href=""><b>Accessibility</b></a>
+               &nbsp;
+               <a href=""><b>Privacy Policy</b></a>
+               &nbsp;
+               <a href=""><b>Notice at Collection</b></a>
+               &nbsp;
+               <a href=""><b>Terms of Use</b></a>
+               &nbsp;
+               <a href=""><b>Site Map</b></a>
+               &nbsp;
+               <a href=""><b>Cookies Notice</b></a>
+               &nbsp;
+               <a href=""><b>Your Privacy Choices</b></a> <br> <br>
+               &nbsp;
+               <a href=""><button style="border:1px solid  rgb(12, 95, 12);color: rgb(12, 95, 12);;background-color: transparent;margin-left:90px;">Cookie Settings</button></a>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <a href="">
+                    <i class="fa-brands fa-facebook-f fa-xl text-light"></i>
+                &nbsp; &nbsp;
+                <i class="fa-brands fa-instagram fa-xl text-light"></i>
+                &nbsp; &nbsp;
+                <i class="fa-brands fa-x-twitter fa-xl text-light"></i>
+                &nbsp; &nbsp;
+                <i class="fa-brands fa-youtube fa-xl text-light"></i>
+                &nbsp; &nbsp;
+                <i class="fa-brands fa-linkedin-in fa-xl text-light"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
